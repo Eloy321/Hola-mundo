@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package javaapplication20;
-
+import javax.swing.*;
 /**
  *
  * @author elolop
@@ -13,8 +13,9 @@ public class JavaApplication20 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-     System.out.print("fasdkfosd");   // TODO code application logic here
+    public static void main(String[] args) {  
+        String entrada = JOptionPane.showInputDialog("Introduce varios nombres");
+        System.out.print("Los nombres son  "+entrada+"  y estos son las letras que tiene  "+entrada.length());
     }
     
 }
